@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Subir Archivo. Ithan Camacho, Carlos Pérez e Isaac Valenzuela
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Subir Archivo</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-item>
+      <ion-label>Selecciona archivo</ion-label>
+      <input type="file" (change)="onFileSelected($event)" />
+    </ion-item>
+
+    <ion-button expand="block" (click)="uploadFile()">
+      Subir Archivo
+    </ion-button>
+  </div>
+</ion-content>
