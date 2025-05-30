@@ -1,3 +1,5 @@
+Integrantes: Ithan Camacho, Carlos Pérez e Isaac Valenzuela
+
 Home TS
 
 ![image](https://github.com/user-attachments/assets/1702938b-3af3-4192-b715-4f922015f26b)
